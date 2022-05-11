@@ -5,6 +5,18 @@ namespace Game.ConsoleApp
 {
     public class Repository
     {
-        
+        //CRUD
+
+        // Create
+public string GetUsersName()
+    {
+
+    }   
+
+        // Read
+
+
+        // Update
+        // Delete
     }
 }
