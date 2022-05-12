@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj": {}
+    "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj": {
+    "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj",
         "projectName": "Game.ConsoleApp",
-        "projectPath": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Noodle\\.nuget\\packages\\",
-        "outputPath": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\obj\\",
+        "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Noodle\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

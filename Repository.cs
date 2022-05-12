@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Game.ConsoleApp;
+
 namespace Game.ConsoleApp
 {
     public class Repository
@@ -8,10 +10,10 @@ namespace Game.ConsoleApp
         //CRUD
 
         // Create
-public string GetUsersName()
-    {
+// public string GetUsersName()
+//     {
 
-    }   
+//     }   
 
         // Read
 
