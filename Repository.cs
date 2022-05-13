@@ -10,6 +10,10 @@ namespace Game.ConsoleApp
         //CRUD
 
         // Create
+
+        public int trevorHelp;
+        public int prayingMantis;
+        public int food;
 // public string GetUsersName()
 //     {
 

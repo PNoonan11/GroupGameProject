@@ -13,7 +13,7 @@ namespace Game.ConsoleApp
         public 
         string input = " ";
     
-
+Repository _repo = new Repository();
 public void Run()
 {
     while(isRunning)
@@ -48,6 +48,7 @@ switch (input)
             }
 public void StartTheGame()
 {
+    Console.Clear();
     Console.WriteLine("You are working for a tech company when our adventure begins. Choose the size of your employment to start the story:\n1. super mega corporation \n2. regional company \n3. small start-up");
     input = Console.ReadLine();
 
@@ -69,32 +70,101 @@ public void StartTheGame()
     isRunning = false;
              break;
             }
+    
+    Console.WriteLine("\n Press and key to continue...");
+    Console.ReadKey();
             }
 
 
 public void AboutTheGame()
 {
     Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and potatoes to keep up your health bar). \n\nYou also have the option to take breaks during your challenges that will reduce your stress level, but be careful, if you get too stressed, you will die! And if too much time passes, your boss will catch you in your mistake and fire you, and you may even eat a moldy potato and die! \n\nTo win, you must answer 4/4 questions correctly before the end of your work day. You must also stay alive under the pressure and the possibility of moldy potatoes");
+    Console.Clear();
+    Console.WriteLine("\n Press and key to continue...");
+    Console.ReadKey();
 }
 
 private void GetUserName()
 {
      Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and potatoes to keep up your health bar). \n\nWhat is your name?\n");
      string name = Console.ReadLine();
+     Console.WriteLine($"Hello, {name}! Let's get you to over to the store..");
+     
+    Console.WriteLine("\n Press and key to continue...");
+    Console.ReadKey();
      GameStore();
    
 }
 
 public void GameStore()
 {
+    Console.Clear();
     Console.WriteLine($"Select an item to purchase\nYour budget is {budget}. \n1. Trevor's helpline: $800 \n2. Praying mantis lucky spirit guide: $200 \n3.Food (tomatoes, bread, and potatoes): $10/pound");
+    input = Console.ReadLine();
+
+     switch (input)
+{
+     case "1":
+     Console.WriteLine("Would you like to purchase one Trevor's Helpline? \n y or n?");
+     string yesOrNo = Console.ReadLine();
+     if (yesOrNo == "y")
+     {
+         if (800 <= budget)
+         {
+         _repo.trevorHelp++;
+         budget = budget - 800;
+         Console.WriteLine("You have purchased one Trevor's Helpline.");
+         GameStore();
+         }
+           else
+         {
+         Console.WriteLine("You do not have enough money to buy Trevor's Helpline.");
+         GameStore();
+         }
+     }
+     else
+     {
+         _repo.trevorHelp = 0;
+         GameStore();
+     }
+             break;
+     case "2":
+     Console.WriteLine("How many Praying Mantis Lucky Spiritguides would you like to purchase?(Limit: 4)");
+     _repo.prayingMantis = Convert.ToInt32(Console.ReadLine());
+     if ((_repo.prayingMantis * 200) <= budget)
+     {
+      budget = budget - (_repo.prayingMantis * 200);
+      Console.WriteLine($"You have purchased {_repo.prayingMantis} Praying Mantis Lucky Spiritguides!");
+      GameStore();}
+      else if ((_repo.prayingMantis * 200) >= budget)
+      {
+          Console.WriteLine("You do not have enough money to buy that many Praying Mantis Lucky Spiritguides.");
+          GameStore();
+      }   
+             break;
+     case "3":
+     Console.WriteLine("How many pounds of food would you like to purchase?");
+     _repo.food = Convert.ToInt32(Console.ReadLine());
+      if ((_repo.food * 10) <= budget)
+     {
+      budget = budget - (_repo.food * 10);
+      Console.WriteLine($"You have purchased {_repo.food} pounds of food!");
+      GameStore();
+
+      }
+      else if ((_repo.food * 20) >= budget)
+      {
+          Console.WriteLine("You do not have enough money to buy that much food.");
+          GameStore();
+      }
+
+             break;
+     default:
+    isRunning = false;
+             break;
 
 }
-//  private char GetUserInput()
-//                 {
-//                     return Console.ReadLine();
-//                 }
-
 
 }
 }
+    }
