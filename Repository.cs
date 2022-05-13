@@ -14,6 +14,7 @@ namespace Game.ConsoleApp
         public int trevorHelp;
         public int prayingMantis;
         public int food;
+        public string name;
 // public string GetUsersName()
 //     {
 
