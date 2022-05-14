@@ -1,30 +1,45 @@
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.csproj.AssemblyReference.cache
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.AssemblyInfoInputs.cache
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.AssemblyInfo.cs
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.csproj.CoreCompileInputs.cache
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\bin\Debug\net6.0\Game.ConsoleApp.exe
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\bin\Debug\net6.0\Game.ConsoleApp.deps.json
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\bin\Debug\net6.0\Game.ConsoleApp.runtimeconfig.json
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\bin\Debug\net6.0\Game.ConsoleApp.dll
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\bin\Debug\net6.0\Game.ConsoleApp.pdb
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.dll
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\refint\Game.ConsoleApp.dll
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.pdb
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\Game.ConsoleApp.genruntimeconfig.cache
-C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\GroupGameProject\obj\Debug\net6.0\ref\Game.ConsoleApp.dll
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.csproj.AssemblyReference.cache
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.AssemblyInfoInputs.cache
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.AssemblyInfo.cs
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.csproj.CoreCompileInputs.cache
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.dll
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\refint\Game.ConsoleApp.dll
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.pdb
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Game.ConsoleApp.exe
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Game.ConsoleApp.deps.json
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Game.ConsoleApp.runtimeconfig.json
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Game.ConsoleApp.dll
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Game.ConsoleApp.pdb
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.genruntimeconfig.cache
-C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\ref\Game.ConsoleApp.dll
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.csproj.AssemblyReference.cache
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfoInputs.cache
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfo.cs
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.csproj.CoreCompileInputs.cache
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.exe
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.deps.json
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.runtimeconfig.json
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.dll
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.pdb
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.dll
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/refint/Game.ConsoleApp.dll
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.pdb
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.genruntimeconfig.cache
+C:/ElevenFiftyProjects/codingFoundations/C# project (day 1)/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/ref/Game.ConsoleApp.dll
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.csproj.AssemblyReference.cache
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfoInputs.cache
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfo.cs
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.csproj.CoreCompileInputs.cache
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.dll
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/refint/Game.ConsoleApp.dll
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.pdb
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/bin/Debug/net6.0/Game.ConsoleApp.exe
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/bin/Debug/net6.0/Game.ConsoleApp.deps.json
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/bin/Debug/net6.0/Game.ConsoleApp.runtimeconfig.json
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/bin/Debug/net6.0/Game.ConsoleApp.dll
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/bin/Debug/net6.0/Game.ConsoleApp.pdb
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/Game.ConsoleApp.genruntimeconfig.cache
+C:/cSharpProjects/CSharpFoundationsOWC/Game.ConsoleApp/obj/Debug/net6.0/ref/Game.ConsoleApp.dll
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.deps.json
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.runtimeconfig.json
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.dll
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/bin/Debug/net6.0/Game.ConsoleApp.pdb
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.csproj.AssemblyReference.cache
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfoInputs.cache
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.AssemblyInfo.cs
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.dll
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/refint/Game.ConsoleApp.dll
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.pdb
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/Game.ConsoleApp.genruntimeconfig.cache
+/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/Debug/net6.0/ref/Game.ConsoleApp.dll

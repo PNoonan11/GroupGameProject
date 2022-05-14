@@ -188,7 +188,8 @@ namespace Game.ConsoleApp
         {
             _repo.answer = "a-(-b);";
             Console.Clear();
-            Console.WriteLine("Taylor the Evil Hacker: Given two numbers, add them WITHOUT using an addition operator. \nint add(int a, int b) \n{return       }\n\nFill in the blank with the correct response: \n\n1. View Inventory\n\n2. Take a break");
+            Console.WriteLine("Taylor the Evil Hacker: Given two numbers, add them WITHOUT using an addition operator. \nint add(int a, int b) \n'{return       }'\n\nFill in the blank with the correct response: \n\n1. View Inventory\n\n2. Take a break");
+            Console.WriteLine($"\nHealth: {_repo.healthBar}\nStress: {_repo.stressBar}");
             string userAnswerOne = Console.ReadLine();
             if (userAnswerOne == _repo.answer)
             {
@@ -198,6 +199,10 @@ namespace Game.ConsoleApp
             else if (userAnswerOne == "1")
             {
                 ProblemOne();
+            }
+            else if (userAnswerOne == "2")
+            {
+                TakeABreak();
             }
             else if (userAnswerOne != _repo.answer)
             {
@@ -301,8 +306,57 @@ namespace Game.ConsoleApp
                 FirstChallenge();
             }
         }
+    public void TakeABreak()
+    {
+        Console.Clear();
+        Console.WriteLine("Are you sure you want to take a break? \nType y or n");
+        string yessOrNoo = Console.ReadLine();
+            if (yessOrNoo == "y")
+            {
+                Console.Clear();
+                Console.WriteLine("You have taken a break for one hour \n Press any key to continue.");
+                Console.ReadKey();
+                 _repo.stressBar = _repo.stressBar - 20;
+                FirstChallenge();
+            }
+            else
+            {
+                Console.Clear();
+                FirstChallenge();
+            }
+    }
 
-
+     public void SecondChallenge()
+        {
+            _repo.answer = "modulus";
+            Console.Clear();
+            Console.WriteLine("Taylor the Evil Hacker:Are you ready for your next challenge???");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.WriteLine("Taylor the Evil Hacker: WAIT I DON'T CARE! You're DOOMED to failure this time. I know the FizzBuzz case is one you cannot solve. \n\n What operator would you use to solve a FIZZBUZZ case");
+            Console.WriteLine($"\nHealth: {_repo.healthBar}\nStress: {_repo.stressBar}");
+            string userAnswerOne = Console.ReadLine();
+            if (userAnswerOne == _repo.answer)
+            {
+                Console.Clear();
+                Console.WriteLine("Taylor the Evil Hacker: DRATS you have fooled me this time next time i will get you and your little dog too!!");
+            }
+            else if (userAnswerOne == "1")
+            {
+                ProblemOne();
+            }
+            else if (userAnswerOne == "2")
+            {
+                TakeABreak();
+            }
+            else if (userAnswerOne != _repo.answer)
+            {
+                Console.Clear();
+                Console.WriteLine("Taylor the Evil Hacker: HAHAHAHAHAHAHAHAAH YOU FOOL! Now it's sudden DEATH. Press any key to continue.");
+                Console.ReadKey();
+                PrintMainMenu();
+            }
+        }
 
 
 

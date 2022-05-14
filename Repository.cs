@@ -14,8 +14,8 @@ namespace Game.ConsoleApp
         public int trevorHelp;
         public int prayingMantis;
         public int food;
-        public int healthBar;
-
+        public int healthBar = 100;
+        public int stressBar = 20;
         public string name;
 public string answer;
         // Read

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CB4jL8eYfCkLZe4R6DOIQ9ofF/NDRgd1msYR7QYDyGnOVJ3VBX55y0yz7m/HqTimIZjHm5mqiCHfa2QSJnh5wg==",
+  "dgSpecHash": "afPtwM3+eovmb1cSU+qEOdM/Nf6sV/PG0u3rrBW7F4AvKF6M9uTpUGs7YL0+8/PHMoAemYgcPYttr9hYQc7+cw==",
   "success": true,
-  "projectFilePath": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
+  "projectFilePath": "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/Game.ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
