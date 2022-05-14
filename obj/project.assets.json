@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
       "projectName": "Game.ConsoleApp",
-      "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj",
+      "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\obj\\",
+      "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\Game.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config"

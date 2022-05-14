@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wwQ078ddSrrtfjFuq51t2BayjLXXSJ42jLZ8ErB0Vg8ERzvY+10KnzwWbyVRV5WbzjRoVK7SsA7LAn+irlKrA==",
+  "dgSpecHash": "YgRJkXrlhIenQ7lBQPOsr15aw5pdSwkggc7Yu0CIdCLQ1YFBFektZg4b5IOhJ9Hmw5H0mXl7NSc+SVbgHOSSjg==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\GroupGameProject\\Game.ConsoleApp.csproj",
+  "projectFilePath": "C:\\ElevenFiftyProjects\\codingFoundations\\C# project (day 1)\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
