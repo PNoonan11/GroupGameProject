@@ -306,17 +306,17 @@ namespace Game.ConsoleApp
                 FirstChallenge();
             }
         }
-    public void TakeABreak()
-    {
-        Console.Clear();
-        Console.WriteLine("Are you sure you want to take a break? \nType y or n");
-        string yessOrNoo = Console.ReadLine();
+        public void TakeABreak()
+        {
+            Console.Clear();
+            Console.WriteLine("Are you sure you want to take a break? \nType y or n");
+            string yessOrNoo = Console.ReadLine();
             if (yessOrNoo == "y")
             {
                 Console.Clear();
                 Console.WriteLine("You have taken a break for one hour \n Press any key to continue.");
                 Console.ReadKey();
-                 _repo.stressBar = _repo.stressBar - 20;
+                _repo.stressBar = _repo.stressBar - 20;
                 FirstChallenge();
             }
             else
@@ -324,9 +324,9 @@ namespace Game.ConsoleApp
                 Console.Clear();
                 FirstChallenge();
             }
-    }
+        }
 
-     public void SecondChallenge()
+        public void SecondChallenge()
         {
             _repo.answer = "modulus";
             Console.Clear();

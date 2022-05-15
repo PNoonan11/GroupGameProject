@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/Game.ConsoleApp.csproj": {}
+    "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/Game.ConsoleApp.csproj": {
+    "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/Game.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
         "projectName": "Game.ConsoleApp",
-        "projectPath": "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/Game.ConsoleApp.csproj",
-        "packagesPath": "/Users/connorfowler/.nuget/packages/",
-        "outputPath": "/Users/connorfowler/Documents/projectsCsharp/CSharpFoundationsOWC/GroupGameProject/obj/",
+        "projectPath": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\Game.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Noodle\\.nuget\\packages\\",
+        "outputPath": "C:\\cSharpProjects\\CSharpFoundationsOWC\\Game.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/connorfowler/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Noodle\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
