@@ -17,13 +17,41 @@ namespace Game.ConsoleApp
         public int healthBar = 100;
         public int stressBar = 20;
         public string name;
-public string answer;
-        // Read
+        public string answer;
+        public int timePassed = 0;
 
+        public void AddHealthAndStress()
+        {
+            stressBar = stressBar + 30;
+            healthBar = healthBar - 50;
+        }
+        public void TaylorText()
+        {
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+        public void StandardText()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
 
+        public void TitleScreen()
+        {
+            Console.Title = "ASCII Art";
+            string title = @"
+  ██████  █████   ███    ██ ████████    ██████ ██ ██████ ██     ███████ 
+██       ██   ██ ████  ████ ██            ██   ██   ██   ██     ██      
+██   ███ ███████ ██ ████ ██ █████         ██   ██   ██   ██     █████   
+██    ██ ██   ██ ██  ██  ██ ██            ██   ██   ██   ██     ██      
+ ██████  ██   ██ ██      ██ ███████       ██   ██   ██   █████  ███████
+                                                                     ";
 
+            Console.WriteLine(title);
+            Console.WriteLine("Press any key to continue....");
+            Console.ReadKey();
+        }
 
-        // Update
-        // Delete
     }
 }
+
