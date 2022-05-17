@@ -6,7 +6,6 @@ namespace Game.ConsoleApp
 {
     public class UserInterface
     {
-        //bool IsRunning - while loop
         private bool isRunning = true;
         public int budget = 0;
 
@@ -25,9 +24,10 @@ namespace Game.ConsoleApp
         }
         public void PrintMainMenu()
         {
+            //_repo.Credits(); //For testing
             _repo.StandardText();
             _repo.TitleScreen();
-            Console.WriteLine("GameTitle \n \n Make a choice: \n 1. Play the game. \n 2. Learn about the game. \n 3. Exit Game");
+            Console.WriteLine("\nCoding Hero  \n \n Make a choice: \n 1. Play the game. \n 2. Learn about the game. \n 3. Exit Game");
             input = Console.ReadLine();
             switch (input)
             {
@@ -40,9 +40,6 @@ namespace Game.ConsoleApp
                 case "3":
                     isRunning = false;
                     return;
-                    //  default:
-                    // isRunning = false;
-                    //          return;
             }
         }
         public void StartTheGame()
@@ -66,7 +63,11 @@ namespace Game.ConsoleApp
                     GetUserName();
                     break;
                 default:
-                    PrintMainMenu();
+                    Console.Clear();
+                    Console.WriteLine("Invalid input - Try again...");
+                    Console.WriteLine("\nPress any key to continue....");
+                    Console.ReadKey();
+                    StartTheGame();
                     break;
             }
             Console.WriteLine("\n Press any key to continue...");
@@ -77,7 +78,7 @@ namespace Game.ConsoleApp
         {
             _repo.StandardText();
             Console.Clear();
-            Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and potatoes to keep up your health bar). \n\nYou also have the option to take breaks during your challenges that will reduce your stress level, but be careful, if you get too stressed, you will die! And if too much time passes, your boss will catch you in your mistake and fire you, and you may even eat a moldy potato and die! \n\nTo win, you must answer 4/4 questions correctly before the end of your work day. You must also stay alive under the pressure and the possibility of moldy potatoes");
+            Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and potatoes to keep up your health bar). \n\nYou also have the option to take breaks during your challenges that will reduce your stress level, but be careful, if you get too stressed, you will die! And if too much time passes, your boss will catch you in your mistake and fire you!! \n\nTo win, you must answer 3/4 questions correctly before the end of your work day. You must also stay alive under the pressure of passing the hacker's challenges.");
             Console.WriteLine("\n Press any key to continue...");
             Console.ReadKey();
             Console.Clear();
@@ -86,7 +87,7 @@ namespace Game.ConsoleApp
         private void GetUserName()
         {
             Console.Clear();
-            Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and potatoes to keep up your health bar). \n\nWhat is your name?\n");
+            Console.WriteLine("When checking your email at work, you click a bad link and a virus takes over your computer. To gain functionality of your computer, the hacker has demanded that you answer a series of coding challenges correctly. Thankfully, you aren't alone in this, as the hacker has accessed your company's debit card information. So you have the option to buy resources to help you along the way, such as Trevor's helpline (used one time to provide a full answer to prompt), Praying mantis lucky spirit guide(provides a helpful hint when used during a challenge), Food (tomatoes, bread, and moldy potatoes to keep up your health bar). \n\nWhat is your name?\n");
             _repo.name = Console.ReadLine();
             Console.Clear();
             Console.WriteLine($"Hello, {_repo.name}! Let's get you to over to the store..");
@@ -97,7 +98,7 @@ namespace Game.ConsoleApp
         public void GameStore()
         {
             Console.Clear();
-            Console.WriteLine($"Select items to purchase\n\nYour budget is {budget}. \n\n1. Trevor's helpline - Use for the answer from the c# guru himself: $800 \n2. Praying mantis lucky spirit guide - Use for a whimsical hint about the answer: $200  \n3. Food (tomatoes, bread, and potatoes - Use to increase your health, and lower your stress): $10/pound \n4. View Inventory \n5. Exit Store and Begin Game");
+            Console.WriteLine($"Select items to purchase\n\nYour budget is {budget}. \n\n1. Trevor's helpline - Use for the answer from the c# guru himself: $800 \n2. Praying mantis lucky spirit guide - Use for a whimsical hint about the answer: $200  \n3. Food (tomatoes, bread, and moldy potatoes - Use to increase your health): $10/pound \n4. View Inventory \n5. Exit Store and Begin Game");
             input = Console.ReadLine();
             switch (input)
             {
@@ -175,7 +176,11 @@ namespace Game.ConsoleApp
                     }
                     break;
                 default:
-                    PrintMainMenu();
+                    Console.Clear();
+                    Console.WriteLine("Invalid input - Try again...");
+                    Console.WriteLine("\nPress any key to continue....");
+                    Console.ReadKey();
+                    GameStore();
                     break;
             }
         }
@@ -191,9 +196,17 @@ namespace Game.ConsoleApp
 
                 FirstChallenge();
             }
-            else
+            else if (yesOrNoo == "n")
             {
                 PrintMainMenu();
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Invalid input - Try again...");
+                Console.WriteLine("\nPress any key to continue....");
+                Console.ReadKey();
+                meetTaylor();
             }
         }
         public void FirstChallenge()
@@ -312,7 +325,11 @@ namespace Game.ConsoleApp
                         }
                     default:
                         {
-                            FirstChallenge();
+                            Console.Clear();
+                            Console.WriteLine("Invalid input - Try again...");
+                            Console.WriteLine("\nPress any key to continue....");
+                            Console.ReadKey();
+                            ProblemOne();
                             break;
                         }
                 }
@@ -326,7 +343,11 @@ namespace Game.ConsoleApp
             }
             else
             {
-                FirstChallenge();
+                Console.Clear();
+                Console.WriteLine("Invalid input - Try again...");
+                Console.WriteLine("\nPress any key to continue....");
+                Console.ReadKey();
+                ProblemOne();
             }
         }
         public void TakeABreak()
@@ -353,7 +374,9 @@ namespace Game.ConsoleApp
 
         public void SecondChallenge()
         {
-            _repo.AddHealthAndStress();
+
+            _repo.stressBar = _repo.stressBar + 30;
+            _repo.healthBar = _repo.healthBar - 50;
             if (_repo.healthBar <= 0)
             {
                 Console.Clear();
@@ -387,9 +410,9 @@ namespace Game.ConsoleApp
             Console.ReadKey();
             Console.Clear();
             _repo.TaylorText();
-            Console.WriteLine("Taylor the Evil Hacker: WAIT I DON'T CARE! You're DOOMED to failure this time. I know the FizzBuzz case is one you cannot solve. \n\n What is the operator called that you would use to solve a FIZZBUZZ case? \n\n1. View Inventory\n\n2. Take a break");
+            Console.WriteLine("Taylor the Evil Hacker: WAIT I DON'T CARE! You're DOOMED to failure this time. I know the FizzBuzz case is one you cannot solve. \n\n What is the operator called that you would use to solve a FIZZBUZZ case?");
             _repo.StandardText();
-            Console.WriteLine($"\nHealth: {_repo.healthBar}\nStress: {_repo.stressBar}");
+            Console.WriteLine($"\n\n1. View Inventory\n\n2. Take a break\n\nHealth: {_repo.healthBar}\nStress: {_repo.stressBar}");
             Console.WriteLine("\nType your answer or enter a menu number:\n");
             string userAnswerOne = Console.ReadLine();
             if (userAnswerOne == _repo.answer)
@@ -405,6 +428,7 @@ namespace Game.ConsoleApp
             }
             else if (userAnswerOne == "1")
             {
+                _repo.AddHealthAndStress();
                 ProblemTwo();
             }
             else if (userAnswerOne == "2")
@@ -483,7 +507,7 @@ namespace Game.ConsoleApp
                                 Console.WriteLine("How much food would you like to eat?");
                                 int foodEaten = Convert.ToInt32(Console.ReadLine());
                                 _repo.food = _repo.food - foodEaten;
-                                _repo.healthBar = _repo.healthBar + foodEaten;
+                                _repo.healthBar = _repo.healthBar + (foodEaten * 10);
                                 Console.WriteLine("Press any key to continue...");
                                 Console.ReadKey();
                                 _repo.AddHealthAndStress();
@@ -511,8 +535,11 @@ namespace Game.ConsoleApp
                         }
                     default:
                         {
-                            _repo.AddHealthAndStress();
-                            SecondChallenge();
+                            Console.Clear();
+                            Console.WriteLine("Invalid input - Try again...");
+                            Console.WriteLine("\nPress any key to continue....");
+                            Console.ReadKey();
+                            ProblemTwo();
                             break;
                         }
                 }
@@ -527,8 +554,11 @@ namespace Game.ConsoleApp
             }
             else
             {
-                _repo.AddHealthAndStress();
-                SecondChallenge();
+                Console.Clear();
+                Console.WriteLine("Invalid input - Try again...");
+                Console.WriteLine("\nPress any key to continue....");
+                Console.ReadKey();
+                ProblemTwo();
             }
 
 
@@ -719,8 +749,11 @@ namespace Game.ConsoleApp
                         }
                     default:
                         {
-                            _repo.AddHealthAndStress();
-                            ThirdChallenge();
+                            Console.Clear();
+                            Console.WriteLine("Invalid input - Try again...");
+                            Console.WriteLine("\nPress any key to continue....");
+                            Console.ReadKey();
+                            ProblemThree();
                             break;
                         }
                 }
@@ -735,8 +768,11 @@ namespace Game.ConsoleApp
             }
             else
             {
-                _repo.AddHealthAndStress();
-                ThirdChallenge();
+                Console.Clear();
+                Console.WriteLine("Invalid input - Try again...");
+                Console.WriteLine("\nPress any key to continue....");
+                Console.ReadKey();
+                ProblemThree();
             }
 
 
@@ -925,8 +961,11 @@ namespace Game.ConsoleApp
                         }
                     default:
                         {
-                            _repo.AddHealthAndStress();
-                            FourthChallenge();
+                            Console.Clear();
+                            Console.WriteLine("Invalid input - Try again...");
+                            Console.WriteLine("\nPress any key to continue....");
+                            Console.ReadKey();
+                            ProblemFour();
                             break;
                         }
                 }
@@ -941,8 +980,11 @@ namespace Game.ConsoleApp
             }
             else
             {
-                _repo.AddHealthAndStress();
-                FourthChallenge();
+                Console.Clear();
+                Console.WriteLine("Invalid input - Try again...");
+                Console.WriteLine("\nPress any key to continue....");
+                Console.ReadKey();
+                ProblemFour();
             }
 
 
@@ -978,8 +1020,9 @@ namespace Game.ConsoleApp
         {
             Console.Clear();
             Console.WriteLine("Wow....An absolute hero among coders.  You did it...against all odds. Your job and company is safe!\n\n");
-            Console.WriteLine("");
+            _repo.Credits();
 
+            Console.ReadKey();
             PrintMainMenu();
             {
 

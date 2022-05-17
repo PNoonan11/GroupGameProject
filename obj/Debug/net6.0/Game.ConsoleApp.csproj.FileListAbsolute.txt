@@ -61,3 +61,9 @@ C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC
 C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.genruntimeconfig.cache
 C:\ElevenFiftyProjects\codingFoundations\C# project (day 1)\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\ref\Game.ConsoleApp.dll
 >>>>>>> d685f0d5af3e6e5ae5f8d095252df5a53a5d6b0d
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\cSharpProjects\CSharpFoundationsOWC\Game.ConsoleApp\obj\Debug\net6.0\Game.ConsoleApp.csproj.CopyComplete
